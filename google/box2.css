@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://e0.pxfuel.com/wallpapers/106/832/desktop-wallpaper-pink-simple-background-page-3-light-pink-simple.jpg);
+     background-size: cover; /* This property ensures that the background image covers the entire body */
+            background-repeat: no-repeat; /* Set to 'no-repeat' to display the background image only once */
+            height: 100vh; /* This ensures that the body takes up the full height of the viewport */
+            margin: 0; 
+}
+.Alt{
+    /* positon:absolute; */
+    width: 500px;
+    height: 500px;
+    border: 1px solid #d5d4d4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #000,
+                0px 0px 8px #000,
+                0px 0px 12px #000;
+  outline: none;
+  margin-left: 400px;
+  margin-top: 50px;
+  
+}
+.mona{
+    display: flex;
+    margin: 20px;
+    /* flex-direction:column ; */
+}
+
+
+#username{
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgb(62, 192, 228);
+    /* align-items: left; */
+    box-shadow:  0px 0px 4px#2fbdc4,
+    0px 0px 8px#15ab8f,
+    0px 0px 12px #10b0b0;
+    /* padding: 10px; */
+    border-radius: 10px;
+    /* border: none; */
+  outline: none;
+  /* width: 400px; */
+  /* height: 22px; */
+  padding-left: 10px; 
+  margin-left:10px ;
+  margin-top: 20px;
+}
+
+.form{
+    margin: 20px;
+    padding: 50px;
+}
+
+.justify{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+button{
+    margin-top: 30px;
+    border-radius: 10px;  
+  /* outline: none; */
+  width: 400px;
+  height: 50px;
+  padding-left: 10px; 
+  align-items: center;
+  /* margin-left: 10px; */
+  margin-left: 50px;
+
+
+}
+.availability{
+    margin-top: 40px;
+}
+.country-hobbie{
+    margin-top: 30px;
+
+}
+.h2{
+    margin-top: 40px;
+}
+/*.submit-containar{
+ text-align: right;
+ margin-right: 30px;
+}
+input[type="submit"]{
+    background-color: rgb(240, 159, 159);
+    width: 45px;
+    height: 30px;
+    border: 2px solid rgb(240, 159, 159);
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 60px;
+    
+}*/
+.submit-container {
+    text-align: right;
+    margin-right: 30px;
+}
+
+input[type="submit"] {
+    background-color: rgb(240, 159, 159);
+    width: 100px; /* Adjusted width for better visibility */
+    height: 40px; /* Adjusted height for better visibility */
+    border: 2px solid rgb(240, 159, 159);
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* Adjusted margin-top for better positioning */
+}

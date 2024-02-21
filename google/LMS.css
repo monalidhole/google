@@ -1,0 +1,295 @@
+body{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    border: 2px solid rgb(255, 0, 85);
+    height: 150px;
+    font-size: 50px;
+    justify-content: space-around;
+
+}
+.button{
+    order: 3;
+    font-size: 40px;
+     margin-left: 20px;
+    font-weight:bold ;
+  }
+  .position{
+    text-align: center;
+    font-size: 65px;
+    margin-top: 20px;
+    letter-spacing:5px;
+    background-color: cadetblue;
+
+  }
+
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around;
+  }
+  
+  /* Style for each box */
+  .box1 {
+    width: 370px;
+    height: 450px;
+    color: white;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 60px;
+    margin-right: 10px; /* Add some margin between the boxes */
+  }
+  .box2 {
+    width: 370px;
+    height: 450px;
+    color: white;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 60px;
+    margin-right: 10px; /* Add some margin between the boxes */
+  }
+  .box3 {
+    width: 370px;
+    height: 450px;
+    color: white;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 60px;
+    margin-right: 10px; /* Add some margin between the boxes */
+  }
+  
+  /* Remove margin from the last box to avoid extra space */
+  .box:last-child {
+    margin-right: 0;
+  }
+  /* Style for the container */
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style for each box */
+.box {
+  width: 370px;
+  height: 450px;
+  color: white;
+  padding: 20px;
+  border: 3px solid red;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 60px;
+  margin-right: 10px; /* Add some margin between the boxes */
+}
+
+/* Style for each inner box */
+.inner-box {
+  width: 30%; /* Adjust the width of the inner box as needed */
+  height: 20%; /* Adjust the height of the inner box as needed */
+  background-color: #3498db; /* Set the background color for inner boxes */
+  color: white;
+  padding: 10px;
+  margin: 10% auto; /* Center the inner box vertically */
+  border: 2px solid #2980b9;
+  border-radius: 8px;
+  text-align: center;
+}
+.UNIQUELY{
+    text-align: center;
+    font-size: 65px;
+    margin-top: 20px;
+    letter-spacing:5px;
+    background-color: rgb(236, 225, 64);
+}
+/* ... (previous styles) ... */
+
+/* Style for container 2 */
+.monali{
+
+}
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+
+}
+
+/* Style for container 3 */
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.hidden {
+    display: none;
+}
+.FLEX{
+    text-align: center;
+    font-size: 65px;
+    margin-top: 20px;
+    letter-spacing:5px;
+    background-color: rgb(148, 214, 82);
+}
+/* .container4{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.P{
+width: 150px;
+  height: 100px;
+  color: white;
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 60px;
+
+
+} */
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.P {
+    width: 200px;
+    height: 100px;
+    color:black;
+    padding: 20px; /* Add padding to create space within each box */
+    border: 2px solid red;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    font-size: medium;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    padding: 10px;
+}
+
+.m {
+    width: 100%;
+    height: 100%;
+    background-color: #75eeee;
+    color: black;
+    padding: 20px; /* Add padding to create space within each box */
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 80px;
+    box-sizing: border-box; /* Include border and padding in the total width and height */
+    margin: 5px;
+}
+.container-5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.A {
+    width: calc(33.33% - 20px); /* Adjust the width based on the number of boxes you want in a row */
+    height: 100px;
+    background-color: #f4916a;
+    color: white;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 20px; /* Add some margin to create space between rows */
+    box-sizing: border-box;
+    margin: 7px;
+}
+
+.A[colspan="2"] {
+    width: calc(66.66% - 20px); /* Adjust the width of the merged box */
+    margin-bottom: 0;
+}
+.container6 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.B {
+    width: 250px;
+    height: 150px;
+    background-color: #f4916a;
+    color: white;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+
+
+
+
+
+
+/* .box {
+    width: 150px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: 2px solid #2980b9;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 80px;
+} */
+
+/* Style for the space between boxes */
+/* .space {
+    width: 20px; /* Set the width of the space */
+
+
+
+
+
+
+    
+
+  
+    
+  
